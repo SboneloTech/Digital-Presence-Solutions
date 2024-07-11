@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Catering Company</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Catering Company</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Discover Our Catering Services</h2>
+            <p>Welcome to our catering company. We specialize in...</p>
+            <a href="/menu" class="btn">View Menu</a>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <!-- Menu items will be dynamically loaded here -->
+        </section>
+
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <!-- Image gallery will be dynamically loaded here -->
+        </section>
+
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form id="orderForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <label for="orderDetails">Order Details:</label><br>
+                <textarea id="orderDetails" name="orderDetails" rows="4" cols="50"></textarea><br><br>
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Catering Company. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
